@@ -1,0 +1,121 @@
+/* Element selector */
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 50px 0 20px 0;
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
+hr {
+  margin: 30px auto 30px auto;
+  border: dotted lightblue 6px;
+  border-bottom: none;
+  width:2%
+}
+
+p{
+  line-height: 30px;
+}
+
+/* Class selector */
+.header_section {
+  background-color: #22577E;
+  position: relative;
+  height: 500px;
+}
+.body_section {
+  background-color: #5584AC;
+}
+.content_container {
+  width: 42%;
+  margin: 0 auto 0 auto;
+}
+.detail_container {
+  margin: 30px;
+  text-align: left;
+}
+.detail_container_contact {
+  margin: 30px;
+  text-align: center;
+}
+.intro_myseft {
+  max-width: 415px;
+  padding: 15px;
+  margin: 0 auto 0 auto;
+}
+.detail_content_box {
+  padding: 20px;
+}
+.footer_section {
+  background-color: #95D1CC;
+}
+.image_header {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  bottom: 0;
+}
+.my_avatar {
+  padding: 50px 0 20px 0;
+  width: 35%;
+}
+.img_skill_1 {
+  width: 120px;
+  float: left;
+  margin: 30px 30px 0 0;
+}
+.img_skill_2 {
+  width: 200px;
+  margin-top: 30px;
+  float: right;
+}
+.button_container{
+  padding: 20px 0 150px 0;
+}
+.link_footer{
+  padding: 30px 0 0 0;
+}
+.copyright {
+  padding: 30px;
+}
+.icon_link {
+  width: 3%
+}
+.contactButton {
+	box-shadow:inset 0px 0px 16px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:12px 26px;
+	text-decoration:none;
+}
+.contactButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
